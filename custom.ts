@@ -23,8 +23,8 @@ namespace custom {
      * @param e describe parameter here
      */
     //% block
-    export function foo(n: number, s: string, e: MyEnum): void {
-        // Add code here
+    export function mul(a: number, b: number): number {
+        return a * b;
     }
 
     /**
